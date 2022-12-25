@@ -1,10 +1,27 @@
 import React from 'react'
-import {motion} from "framer-motion"
+import {animate, motion} from "framer-motion"
 import {BsArrowUpRight,BsChevronDown} from "react-icons/bs"
 import Typewritter from "typewriter-effect"
 import me from "../assests/logo.png"
+import { useRef } from 'react'
+
 
 const Home = () => {
+    const clientCount =useRef(null);
+    const projectCount =useRef(null);
+    const animationClientscount=()=>{
+        animate(0,100,{
+            duration:1,
+            onUpdate:(v)=>(clientCount.current.textContent=v.toFixed())
+        })
+    }
+        const animationProjectcount=()=>{
+            animate(0,500,{
+                duration:1,
+                onUpdate:(v)=>(projectCount.current.textContent=v.toFixed())
+            })
+
+    }
 
     const animation ={
         h1:{
@@ -50,9 +67,7 @@ const Home = () => {
                     <a href='mailto:vinayakbanga22@gmail.com'>
                        Hire Me
                     </a>
-                    <a href='#work'>
-                       Work
-                    </a>
+                    
                     <a href='#projects'>
                        Projects <BsArrowUpRight/>
                     </a>
@@ -60,7 +75,7 @@ const Home = () => {
 
                 <article>
                     <p>
-                        +<span>100</span>
+                        +<motion.span whileInView={animationClientscount} ref={clientCount}></motion.span>
                     </p>
                     <span> Clients Worldwide</span>
                 </article>
@@ -68,7 +83,7 @@ const Home = () => {
                 <aside>
                 <article>
                     <p>
-                        +<span>500</span>
+                        +<motion.span whileInView={animationProjectcount} ref={projectCount}></motion.span>
                     </p>
                     <span> Projects Made</span>
                 </article>
