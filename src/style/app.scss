@@ -2,10 +2,11 @@
 
 
  @import "statics";
+ @import "animations";
  @import "header";
  @import "home.scss";
- @import "animations";
-
+@import "work.scss";
+@import "timeline.scss";
  *
  {
     margin: 0%;
