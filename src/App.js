@@ -11,6 +11,7 @@ function App() {
     <Home/>
     <Work/>
     <Timeline/>
+    <Services/>
     </>
     
   );
