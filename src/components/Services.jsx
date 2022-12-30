@@ -15,11 +15,11 @@ const Services = () => {
     },
     two:{
       opacity:0,
-      x:"-100%"
+      y:"-100%"
     },
     three:{
       opacity:0,
-      x:"-100%"
+      y:"-100%"
     },
     four:{
       opacity:0,
@@ -50,7 +50,8 @@ const Services = () => {
 
         </motion.div>
         <motion.div className='servicebox4 ' whileInView={animations.whileInView}
-        initial={animations.four}>
+        initial={animations.four} transition={{delay:0.2}}
+        >
           <AiFillIeCircle/>
           <span>Web development </span>
 
