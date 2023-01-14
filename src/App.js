@@ -4,6 +4,9 @@ import Work from "./components/Work.jsx";
 import Timeline from "./components/timeline.jsx";
 import Services from "./components/Services.jsx";
 import Testimonials from "./components/Testimonials.jsx"
+import Contact from "./components/contact.jsx"
+import { Toaster } from "react-hot-toast";
+import Footer from "./components/Footer.jsx"
 
 
 function App() {
@@ -15,6 +18,9 @@ function App() {
     <Timeline/>
     <Services/>
     <Testimonials/>
+    <Contact/>
+    <Toaster/>
+    <Footer/>
     </>
     
   );
