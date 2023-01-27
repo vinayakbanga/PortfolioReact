@@ -31,25 +31,25 @@ const Services = () => {
     <div id="services">
       <h2>Services</h2>
       <section>
-        <motion.div className='servicebox1 ' whileInView={animations.whileInView}
+        <motion.div className='serviceBox1 ' whileInView={animations.whileInView}
         initial={animations.one}>
           <h3>5+</h3>
           <p>Years Experience</p>
 
         </motion.div>
-        <motion.div className='servicebox2 ' whileInView={animations.whileInView}
+        <motion.div className='serviceBox2 ' whileInView={animations.whileInView}
         initial={animations.two}>
           <AiFillIeCircle/>
           <span>Web development</span>
 
         </motion.div>
-        <motion.div className='servicebox3 ' whileInView={animations.whileInView}
+        <motion.div className='serviceBox3 ' whileInView={animations.whileInView}
         initial={animations.three}>
           <AiFillIeCircle/>
           <span>Web development </span>
 
         </motion.div>
-        <motion.div className='servicebox4 ' whileInView={animations.whileInView}
+        <motion.div className='serviceBox4 ' whileInView={animations.whileInView}
         initial={animations.four} transition={{delay:0.2}}
         >
           <AiFillIeCircle/>

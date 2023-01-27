@@ -40,3 +40,76 @@ nav{
         }
     }
 }
+.navBtn{
+    border: none;
+    background-color: transparent;
+    color: $color5;
+    font-size: 1.4rem;
+    z-index: 150;
+    top: 2rem;
+    right: 2rem;
+    position: fixed;
+    
+    &:hover{
+        color: $color3;
+    }
+    display: none;
+    
+}
+.navPhone{
+    transition: all 0.5s;
+    transform: translateY(-100%); 
+    width: 100%;
+    height: 100vh;
+    background-color: $color5;
+    padding: $p_base;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    >h2{
+        // font-family: $;
+        font-size: 2 rem ;
+         color: $color4;
+
+    }
+   >div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    a{
+        color: $color4;
+        letter-spacing: 1px;
+        font-weight: 500;
+        transition: all 0.3s;
+        &hover{
+            color: $color3;
+        }
+    }
+   }
+   >a>button{
+    border: 1px solid $color6 ;
+    padding: 0.5rem 2rem;
+    background-color: $color1;
+    cursor: pointer;
+    color: $color6;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: 0.5s;
+    &:hover{
+        background-color: $color6;
+        color: $color4;
+    }
+
+   }
+}
+.navPhoneComes{
+    transform: translateY(0%);
+}

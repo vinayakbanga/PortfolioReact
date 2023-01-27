@@ -73,7 +73,7 @@ const Home = () => {
                     </a>
                 </div>
 
-                <article>
+                <article className='client'>
                     <p>
                         +<motion.span whileInView={animationClientscount} ref={clientCount}></motion.span>
                     </p>
@@ -81,6 +81,12 @@ const Home = () => {
                 </article>
 
                 <aside>
+                {/* <article>
+                    <p>
+                        +<motion.span whileInView={animationClientscount} ref={clientCount}></motion.span>
+                    </p>
+                    <span> Clients Worldwide</span>
+                </article> */}
                 <article>
                     <p>
                         +<motion.span whileInView={animationProjectcount} ref={projectCount}></motion.span>
