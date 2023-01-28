@@ -5,6 +5,7 @@ import Timeline from "./components/timeline.jsx";
 import Services from "./components/Services.jsx";
 import Testimonials from "./components/Testimonials.jsx"
 import Contact from "./components/contact.jsx"
+import ToolsUsed from "./components/tools.jsx"
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/Footer.jsx"
 import { useState } from "react";
@@ -21,8 +22,9 @@ console.log(menuOpen);
     <Home/>
     <Work/>
     <Timeline/>
-    <Services/>
-    <Testimonials/>
+    {/* <Services/> */}
+    <ToolsUsed/>
+    {/* <Testimonials/> */}
     <Contact/>
     <Toaster/>
     <Footer/>

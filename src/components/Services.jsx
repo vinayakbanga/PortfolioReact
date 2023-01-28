@@ -33,7 +33,7 @@ const Services = () => {
       <section>
         <motion.div className='serviceBox1 ' whileInView={animations.whileInView}
         initial={animations.one}>
-          <h3>5+</h3>
+          <h3>2+</h3>
           <p>Years Experience</p>
 
         </motion.div>
@@ -46,7 +46,7 @@ const Services = () => {
         <motion.div className='serviceBox3 ' whileInView={animations.whileInView}
         initial={animations.three}>
           <AiFillIeCircle/>
-          <span>Web development </span>
+          <span>Frontend development </span>
 
         </motion.div>
         <motion.div className='serviceBox4 ' whileInView={animations.whileInView}

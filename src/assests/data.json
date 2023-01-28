@@ -2,18 +2,18 @@
     "projects": [
       {
         "date": "07/10/2022",
-        "title": "TECHY STAR",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-        "url": "https://reactone-nine.vercel.app",
-        "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
+        "title": "Food Ordering webapp",
+        "description": "This is Food ordering web app for the Resturant named The Burgers nation. It is a completly responsive web app for ordering with a payment gateway",
+        "url": "https://github.com/vinayakbanga/Burger-app",
+        "imgSrc": "https://github.com/vinayakbanga/Portfolio/blob/main/images/webapp.png?raw=true"
       },
   
       {
         "date": "11/10/2022",
-        "title": "VIDEO HUB",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "title": "Restaurant Lading page",
+        "description": "This is a completely resposive returant landing page made with html css and js",
         "url": "https://react-video-app-eight.vercel.app",
-        "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+        "imgSrc": "https://github.com/vinayakbanga/Portfolio/blob/main/images/Screenshot%20(917).png?raw=true"
       },
       {
         "date": "15/10/2022",
@@ -36,6 +36,18 @@
         "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
         "url": "/",
         "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+      }
+    ],
+    "experience" : [
+      {
+        "place":"Devtown previously ShapeAi",
+        "role":"Full Stack Development trainee and intern",
+        "duration":"July 2021-October 2021"
+      },
+      {
+        "place":"Sopra steria",
+        "role":"Full Stack Developer",
+        "duration":"June 2022-September 2022"
       }
     ]
   }

@@ -5,7 +5,8 @@ import data from "../assests/data.json"
 const Work = () => {
   return (
     <div id='work'>
-        <h1>WORK</h1>
+        <h1>Projects</h1>
+        
         <section>
             <article>
                 <Carousel

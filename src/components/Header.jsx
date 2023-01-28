@@ -29,8 +29,8 @@ export const NavContent =({setMenuOpen}) =>(
     <a onClick={()=> setMenuOpen(false)} href="#home">Home</a>
     <a onClick={()=> setMenuOpen(false)} href="#work">Work</a>
     <a onClick={()=> setMenuOpen(false)} href="#timeline">TimeLine</a>
-    <a onClick={()=> setMenuOpen(false)} href="#services">Services</a>
-    <a onClick={()=> setMenuOpen(false)} href="#testimonials">Testimonials</a>
+    <a onClick={()=> setMenuOpen(false)} href="#tools">Tools</a>
+    {/* <a onClick={()=> setMenuOpen(false)} href="#testimonials">Testimonials</a> */}
     <a onClick={()=> setMenuOpen(false)} href="#contact">Contact</a>
   </div>
   <a href='mailto:vinayakbanga22@gmail.com'>

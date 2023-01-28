@@ -4,10 +4,11 @@ import data from "../assests/data.json"
 const timeline = () => {
   return (
     <div id='timeline'>
+        <h1>Work Experience</h1>
         <div className="timelineBox">
             {
-                data.projects.map((item,index)=>(
-                    <TimelineItem heading={item.title} text={item.date} index={index} key ={item.title}/>
+                data.experience.map((item,index)=>(
+                    <TimelineItem heading={item.place} text={item.role} index={index} duration={item.duration} key ={item.title}/>
                 ))
             }
 
@@ -18,7 +19,7 @@ const timeline = () => {
 }
 
 
-const TimelineItem =({heading,text,index})=>(
+const TimelineItem =({heading,text,duration,index})=>(
     <div className={`timelineItem 
     ${index%2===0 ? "leftTimeline":"rightTimeline"}`
     }>
@@ -26,6 +27,7 @@ const TimelineItem =({heading,text,index})=>(
         <div>
         <h2>{heading}</h2>
         <p>{text}</p>
+        <span>{duration}</span>
         </div>
         
     </div>
