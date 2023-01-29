@@ -68,7 +68,7 @@ const Home = () => {
                        Hire Me
                     </a>
                     
-                    <a href='#projects'>
+                    <a href='#works'>
                        Projects <BsArrowUpRight/>
                     </a>
                 </div>
