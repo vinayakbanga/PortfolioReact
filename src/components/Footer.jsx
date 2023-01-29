@@ -2,7 +2,7 @@ import React from "react";
 import {
   AiFillGithub,
   AiFillInstagram,
-  AiFillYoutube,
+  AiFillLinkedin,
   AiOutlineArrowUp,
 } from "react-icons/ai";
 import me from "../assests/logo.png"
@@ -24,13 +24,13 @@ const Footer = () => {
         <h2>Social Media</h2>
 
         <article>
-          <a href="" target={"blank"}>
-            <AiFillYoutube />
+          <a href="https://www.linkedin.com/in/vinayak-banga-1749501b3/" target={"blank"}>
+            <AiFillLinkedin />
           </a>
-          <a href="" target={"blank"}>
+          <a href="https://www.instagram.com/vinayakbanga/?hl=en" target={"blank"}>
             <AiFillInstagram />
           </a>
-          <a href="" target={"blank"}>
+          <a href="https://github.com/vinayakbanga" target={"blank"}>
             <AiFillGithub />
           </a>
         </article>
