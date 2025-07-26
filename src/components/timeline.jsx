@@ -1,9 +1,9 @@
 import React from 'react'
-import data from "../assests/data.json"
+import data from "../assets/data.json"
 
 const timeline = () => {
   return (
-    <div id='timeline'>
+    <div id='timeline' aria-label="Work Experience Timeline section">
         <h1>Work Experience</h1>
         <div className="timelineBox">
             {

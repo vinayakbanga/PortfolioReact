@@ -93,3 +93,38 @@
 
     }
 }
+@media screen and (max-width: 900px) {
+  #timeline .timelineItem {
+    width: 100%;
+    left: 0 !important;
+  }
+  #timeline .rightTimeline {
+    left: 0 !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  #timeline {
+    height: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 2.5rem;
+    .timelineBox::after {
+      left: 31px;
+    }
+    .timelineItem {
+      width: 100%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      box-sizing: border-box;
+    }
+    .rightTimeline {
+      left: 0%;
+    }
+    .leftTimeline,
+    .rightTimeline {
+      &::after {
+        left: 15px;
+        right: auto;
+      }
+    }
+  }
+}

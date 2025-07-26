@@ -64,3 +64,12 @@
         grid-column: 2/4;
     }
 }
+@media screen and (max-width: 900px) {
+  #services > section {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    > * {
+      height: auto;
+    }
+  }
+}

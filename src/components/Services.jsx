@@ -28,7 +28,7 @@ const Services = () => {
 
   }
   return (
-    <div id="services">
+    <div id="services" aria-label="Services section">
       <h2>Services</h2>
       <section>
         <motion.div className='serviceBox1 ' whileInView={animations.whileInView}

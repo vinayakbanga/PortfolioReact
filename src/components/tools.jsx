@@ -6,7 +6,7 @@ import {FaHtml5,FaCss3Alt,FaGitAlt,FaJs,FaStripe,FaNode,FaReact,FaBootstrap} fro
 
 const tools = () => {
   return (
-    <div id="tools">
+    <div id="tools" aria-label="Tools I use section">
         <h2>Tools I use</h2>
         <section>
             <div className='tech'>

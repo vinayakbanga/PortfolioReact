@@ -2,7 +2,7 @@ import React from 'react'
 import {animate, motion} from "framer-motion"
 import {BsArrowUpRight,BsChevronDown} from "react-icons/bs"
 import Typewritter from "typewriter-effect"
-import me from "../assests/logo.png"
+import me from "../assets/logo.png"
 import { useRef } from 'react'
 
 
@@ -64,11 +64,11 @@ const Home = () => {
                     cursor:"",
                 }}/>
                 <div>
-                    <a href='mailto:vinayakbanga22@gmail.com'>
+                    <a href='mailto:vinayakbanga22@gmail.com' aria-label="Send email to Vinayak Banga">
                        Hire Me
                     </a>
                     
-                    <a href='#work'>
+                    <a href='#work' aria-label="Go to Projects section">
                        Projects <BsArrowUpRight/>
                     </a>
                 </div>
@@ -106,7 +106,7 @@ const Home = () => {
 
         </section>
         <section>
-            <img src ={me} alt="Vinayak"/>
+            <img src={me} alt="Vinayak Banga profile"/>
         </section>
         <BsChevronDown/>
     </div>

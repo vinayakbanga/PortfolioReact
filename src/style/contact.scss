@@ -60,4 +60,12 @@
       }
     }
   }
+  @media screen and (max-width: 900px) {
+    #contact {
+      grid-template-columns: 1fr;
+      > aside {
+        display: none;
+      }
+    }
+  }
   //10

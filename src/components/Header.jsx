@@ -8,7 +8,7 @@ const Header = ({menuOpen,setMenuOpen}) => {
       <NavContent/>
       
     </nav>
-    <button className='navBtn' onClick={()=> setMenuOpen(!menuOpen)}>
+    <button className='navBtn' aria-label="Open navigation menu" onClick={()=> setMenuOpen(!menuOpen)}>
         <AiOutlineMenu/>
       </button>
       </>
@@ -26,14 +26,14 @@ export const NavContent =({setMenuOpen}) =>(
   <>
   <h2>Vinayak Banga</h2>
   <div>
-    <a onClick={()=> setMenuOpen(false)} href="#home">Home</a>
-    <a onClick={()=> setMenuOpen(false)} href="#work">Work</a>
-    <a onClick={()=> setMenuOpen(false)} href="#timeline">TimeLine</a>
-    <a onClick={()=> setMenuOpen(false)} href="#tools">Tools</a>
+    <a onClick={()=> setMenuOpen(false)} href="#home" aria-label="Go to Home section">Home</a>
+    <a onClick={()=> setMenuOpen(false)} href="#work" aria-label="Go to Work section">Work</a>
+    <a onClick={()=> setMenuOpen(false)} href="#timeline" aria-label="Go to Timeline section">TimeLine</a>
+    <a onClick={()=> setMenuOpen(false)} href="#tools" aria-label="Go to Tools section">Tools</a>
     {/* <a onClick={()=> setMenuOpen(false)} href="#testimonials">Testimonials</a> */}
-    <a onClick={()=> setMenuOpen(false)} href="#contact">Contact</a>
+    <a onClick={()=> setMenuOpen(false)} href="#contact" aria-label="Go to Contact section">Contact</a>
   </div>
-  <a href='mailto:vinayakbanga22@gmail.com'>
+  <a href='mailto:vinayakbanga22@gmail.com' aria-label="Send email to Vinayak Banga">
     <button>Email</button>
   </a>
   
